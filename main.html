@@ -37,6 +37,12 @@
       footer p {
           font-size: 125%; /* Footer text size */
       }
+
+      /* Specific styling for external links like Bandcamp */
+      a[href^="http"]:not([href*="sirisunshine.bandcamp.com"]) {
+          color: gray !important; /* Force gray color for external links */
+      }
+
   </style>
 </head>
 <body>
