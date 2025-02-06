@@ -107,14 +107,7 @@
     const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-    // Display the countdown
-    document.getElementById("countdown").innerHTML = 
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-    // If the countdown is over, display a message
-    if (timeRemaining < 0) {
-      clearInterval(interval);
-      document.getElementById("countdown").innerHTML = "The time has come!";
     }
   }, 1000);
 </script>
@@ -142,7 +135,7 @@
 <br>
 <br>
  <footer>
-<p style="font-size:125%;" ><a href="https://www.youtube.com/@NottaFoamer"> credit to kadence for the site (click)</a></p>
+<p style="font-size:125%;" ><a href="https://www.youtube.com/@NottaFoamer"> credit to indie for the site (click)</a></p>
 </body>
 </body>
 </html>
